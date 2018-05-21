@@ -4,12 +4,16 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "browser-sync start --server public -f . --cwd public --no-notify"
+    "start": "browser-sync start --server public -f . --cwd public --no-notify"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com-intercreate:intercreate/www.intercreate.io.git"
   },
   "author": "Dave Desrochers <dave@intercreate.io>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
 }
