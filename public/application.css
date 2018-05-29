@@ -51,19 +51,16 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.20em;
   color: #505050;
-  font-weight: bold;
 }
 
 .subtitle {
   font-size: 1.20em;
   line-height: 1.5em;
   color: #a0a0a0;
-  font-weight: 100;
-  /* letter-spacing: 0.06em; */
 }
 
 .subsubtitle {
-  font-size: 0.75em;
+  font-size: 0.85em;
 }
 
 .bar {
@@ -96,5 +93,4 @@ body {
 #email {
   color: #a0a0a0;
   text-decoration: none;
-
 }
