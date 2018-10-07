@@ -1,0 +1,336 @@
+/*
+	Author Name	: 	Chris A. White | fyrebear.com
+	Author Site	: 	Intercreate.io
+	Style Name	: 	intercreate
+	Version		: 	1.0
+	Comments	: 	
+*/
+
+/* Color Chart
+   --------------------------------
+   body background:  	     #FFFFFF 
+   background sea green:     #cfe2de
+   background light green:   #f4f8f7
+   background charcoal:      #494f4f
+   background charcoal dark: #414143
+
+   text grey:                #a0a0a0
+   text grey dark:           #6f7678
+   text white:		         #ffffff
+   
+   
+   ----------------------------------------------------*/
+   
+/* Index
+   --------
+   -FONTS
+   -GLOBAL
+   -GENERAL LAYOUT
+   -NAVIGATION
+   -HEADER/MASTHEAD
+   -APPROACH
+   -COMPANIES
+   -EXIST
+   -CONTACT
+   -FOOTER
+   -MISC
+   ----------------------------------------------------*/
+
+
+/* -----------------------------------*/
+/* ---------->>> FONTS <<<------------*/
+/* -----------------------------------*/
+
+@font-face {
+  font-family: "GT Pressura Regular";
+  font-style: normal;
+  font-stretch: normal;
+  src: url(../fonts/GT-Pressura-Regular.woff);
+}
+
+
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+body {
+    font-family: "GT Pressura Regular";
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    font-size: 100%;
+    background-color: #f0f0f0;
+    padding-top:60px;
+    color: #a0a0a0;
+}
+
+
+/* -----------------------------------*/
+/* ----->>> GENERAL LAYOUT <<<--------*/
+/* -----------------------------------*/
+
+/* Bootstrap layout */
+
+/* bootstrap container override for large viewport*/
+@media (min-width: 1200px){
+	.container { width: 970px; }
+}
+
+
+/* -----------------------------------*/
+/* --------->>> NAVIGATION <<<--------*/
+/* -----------------------------------*/
+
+
+img#Logo { 
+    width:80px; 
+    margin-top:-30px; 
+    margin-bottom:-30px;
+    transition: width 0.2s ease;
+}
+
+img#Logo-Mobile {display:none; }
+@media (max-width: 670px) and (min-width: 1px){
+img#Logo-Mobile {display:inherit; width:80px; margin-top:-30px; margin-bottom:-30px; }
+img#Logo {display:none;}
+}
+
+.navbar-brand { font-size: 1.75rem; letter-spacing: 3px; }
+
+.navbar-light .navbar-brand { color: #000000; }
+
+@media (max-width: 370px) and (min-width: 1px){
+    .navbar-brand {font-size: 1.23rem;}
+}
+
+
+
+/* Navigation & Company Brand Shrink & Expand upon scroll */
+/* action at 100px via agency.js */
+@media (min-width: 730px) { /* 992 */
+  #mainNav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+    
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+    
+  #mainNav #intercreate-icon { 
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+   }
+    
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em 1.1em 1em !important;
+      
+  }
+    
+    
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+    
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+
+
+/* -----------------------------------*/
+/* ------->>> HEADER/MASTHEAD <<<-----*/
+/* -----------------------------------*/
+
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/pattern_slice.png") repeat center center;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+header.masthead h1 {
+  font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+
+/* desktop */
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 20rem;
+    padding-bottom: 14rem;
+  }
+  header.masthead h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+/* desktop */
+
+
+
+
+/* -----------------------------------*/
+/* ------->>> APPROACH <<<------------*/
+/* -----------------------------------*/
+
+section.approach {
+    padding: 100px 0px 40px 0px;
+    background-color: #ffffff;
+}
+
+section.approach p {
+    padding: 10px 20px 10px 20px;
+    color: rgba(0,0,0,.5);
+}
+
+section.approach h2 {font-size: 90%; letter-spacing: 3px;
+padding:0px 0px 20px 0px; color: rgba(0,0,0,.5);}
+section.approach h3 {font-size: 90%; letter-spacing: 3px; color: rgba(0,0,0,.5); } 
+
+
+#icon-airplane {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: url(../img/paper_airplane_ICON.svg) no-repeat 0 0;
+}
+
+#icon-box {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: url(../img/box_ICON.svg) no-repeat 0 0;
+  margin-top:-8px;
+  margin-bottom:8px;
+}
+
+#icon-testing {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: url(../img/test_ICON.svg) no-repeat 0 0;
+}
+
+
+
+/* -----------------------------------*/
+/* ---->>> COMPANIES WORKED <<<-------*/
+/* -----------------------------------*/
+
+section.companies { 
+    background-color:#f4f8f7;
+    padding: 100px 0px 100px 0px;
+}
+
+section.companies h2 {font-size: 90%; letter-spacing: 3px;
+padding:0px 0px 60px 0px;}
+
+section.companies img.company-icon {
+   padding: 0px 0px 40px 0px; 
+    
+}
+
+
+/* -----------------------------------*/
+/* ------------>>> EXIST <<<----------*/
+/* -----------------------------------*/
+
+section.exist {
+    background-color:#cfe2de;  
+    padding: 100px 0px 100px 0px;
+}
+
+section.exist h2 {font-size: 90%; letter-spacing: 3px;
+padding:0px 0px 20px 0px; color:#6f7678;}
+
+section.exist p { padding: 10px 100px 10px 100px; color:#6f7678; }
+
+@media (max-width: 667px){
+	section.exist p { padding: 10px 50px 10px 50px; }
+}
+
+
+
+/* -----------------------------------*/
+/* ------>>> CONTACT US <<<-----------*/
+/* -----------------------------------*/
+
+section.contact { 
+    background-color: #494f4f;
+    padding: 100px 0px 100px 0px;
+}
+
+section.contact h2 {font-size: 90%; letter-spacing: 3px;
+padding:0px 0px 20px 0px; color: #ffffff;}
+
+section.contact p { padding: 0px 100px 10px 100px; color: #ffffff; }
+
+section.contact .contact-icons { padding: 20px 0px 0px 0px; }
+
+#icon-email {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url(../img/email_ICON.svg) no-repeat 0 0;
+  margin:0px 25px 15px 0px;
+}
+
+#icon-phone {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url(../img/phone_ICON.svg) no-repeat 0 0;
+    margin:0px 25px 15px 0px;
+}
+
+#icon-angellist {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url(../img/angellist_ICON.svg) no-repeat 0 0;
+    margin:0px 25px 15px 0px;
+}
+
+#icon-linkedin {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url(../img/linkedin_ICON.svg) no-repeat 0 0;
+    margin:0px 25px 15px 0px;
+}
+
+
+
+/* -----------------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* -----------------------------------*/
+
+
+footer.footer {
+  padding: 40px 0px 40px 0px;
+  background-color: #414143;
+}
+
+
+/* -----------END-------------*/
