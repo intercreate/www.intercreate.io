@@ -237,6 +237,35 @@ section.projects h2 {
 }
 
 /* -----------------------------------*/
+/* ------->>> SERVICES <<<------------*/
+/* -----------------------------------*/
+
+section.services {
+  background: #E5ECEB;
+}
+
+section.services h2 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+}
+
+section.services h3 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+  margin-bottom: 12px;
+}
+
+.services ul {
+  list-style-type: none;
+}
+
+.services li {
+  margin-bottom: 15px;
+}
+
+/* -----------------------------------*/
 /* ------->>> APPROACH <<<------------*/
 /* -----------------------------------*/
 
