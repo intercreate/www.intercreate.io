@@ -155,7 +155,7 @@ img#Logo {display:none;}
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/pattern_slice.png") repeat center center;
+  background: url("../img/projects_banner.jpg") repeat center center;
   padding-top: 12rem;
   padding-bottom: 8rem;
 }
@@ -185,10 +185,56 @@ header.masthead h1 {
     line-height: 1.4;
   }
 }
+
+#projectsBanner {
+  /* background: url("../img/pr") repeat center center; */
+}
 /* desktop */
 
+/* -----------------------------------*/
+/* ------->>> PROJECTS <<<------------*/
+/* -----------------------------------*/
 
+section.projects p {
+  color: rgba(0,0,0,.5);
+  letter-spacing: 3px;
+  font-size: 80%;
+}
 
+section.projects h2 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+}
+
+.projects img {
+  height: 23vw;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .projects img {
+    height: 35vw;
+  }
+}
+
+@media (max-width: 767px){
+	.projects img {
+    height: 70vw;
+  }
+}
+
+.project-content {
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.6);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.project-content:hover {
+  opacity: 100%;
+
+}
 
 /* -----------------------------------*/
 /* ------->>> APPROACH <<<------------*/
