@@ -214,7 +214,9 @@ section.projects h2 {
 }
 
 .projects img {
-  height: 23vw;
+  height: 18vw;
+  box-sizing: border-box;
+  border: 1px solid black;
 }
 
 @media (min-width: 768px) and (max-width: 1200px){
