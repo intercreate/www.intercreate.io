@@ -155,9 +155,9 @@ img#Logo {display:none;}
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/projects_banner.jpg") repeat center center;
   padding-top: 12rem;
   padding-bottom: 8rem;
+  /* height: 100vh; */
 }
 
 header.masthead .overlay {
@@ -172,7 +172,13 @@ header.masthead h1 {
   font-size: 1.5rem;
     line-height: 1.4;
 }
+#projectsBanner {
+  background: url("../img/projects_banner.jpg") repeat center center;
+}
 
+#aboutBanner {
+  background: #AEC7C2;
+}
 
 /* desktop */
 @media (min-width: 768px) {
@@ -184,11 +190,11 @@ header.masthead h1 {
     font-size: 2rem;
     line-height: 1.4;
   }
+  #aboutBanner {
+    padding-top: 14rem;
+  }
 }
 
-#projectsBanner {
-  /* background: url("../img/pr") repeat center center; */
-}
 /* desktop */
 
 /* -----------------------------------*/
@@ -332,14 +338,14 @@ section.companies img.company-icon {
 /* -----------------------------------*/
 
 section.exist {
-    background-color:#cfe2de;  
-    padding: 100px 0px 100px 0px;
+    /* background-color:#cfe2de;   */
+    /* padding: 100px 0px 100px 0px; */
 }
 
 section.exist h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 20px 0px; color:#6f7678;}
+padding:0px 0px 20px 0px; }
 
-section.exist p { padding: 10px 100px 10px 100px; color:#6f7678; }
+section.exist p { padding: 10px 100px 10px 100px; }
 
 @media (max-width: 667px){
 	section.exist p { padding: 10px 50px 10px 50px; }
