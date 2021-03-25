@@ -353,6 +353,19 @@ section.exist p { padding: 10px 100px 10px 100px; }
 	section.exist p { padding: 10px 50px 10px 50px; }
 }
 
+/* -----------------------------------*/
+/* ------------>>> TEAM <<<----------*/
+/* -----------------------------------*/
+
+section.team h2 {font-size: 90%; letter-spacing: 3px;}
+
+  section.team h3 {font-size: 92%; letter-spacing: 3px;}
+
+    section.team h4 {font-size: 90%; letter-spacing: 3px;}
+
+section.team p { font-size: 85%;}
+
+section.team img { width: 150px; height: 150px; border-radius: 50%;}
 
 
 /* -----------------------------------*/
