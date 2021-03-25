@@ -371,6 +371,21 @@ section.team p { font-size: 85%;}
 
 section.team img { width: 150px; height: 150px; border-radius: 50%;}
 
+/* -----------------------------------*/
+/* ------>>> OPPORTUNITIES <<<-----------*/
+/* -----------------------------------*/
+section.opportunities h1, 
+section.opportunities h2 {
+  font-size: 90%; letter-spacing: 3px;
+}
+
+section.opportunities a {
+  color: #a0a0a0;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 90%; 
+  letter-spacing: 3px;
+}
 
 /* -----------------------------------*/
 /* ------>>> CONTACT US <<<-----------*/
