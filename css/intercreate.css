@@ -155,9 +155,9 @@ img#Logo {display:none;}
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/pattern_slice.png") repeat center center;
   padding-top: 12rem;
   padding-bottom: 8rem;
+  /* height: 100vh; */
 }
 
 header.masthead .overlay {
@@ -172,7 +172,17 @@ header.masthead h1 {
   font-size: 1.5rem;
     line-height: 1.4;
 }
+#projectsBanner {
+  background: url("../img/projects_banner.jpg") repeat center center;
+}
 
+#aboutBanner {
+  background: #AEC7C2;
+}
+
+#approachBanner {
+  background: url("../img/approach_banner.jpg");
+}
 
 /* desktop */
 @media (min-width: 768px) {
@@ -184,11 +194,88 @@ header.masthead h1 {
     font-size: 2rem;
     line-height: 1.4;
   }
+  #aboutBanner {
+    padding-top: 14rem;
+  }
 }
+
 /* desktop */
 
+/* -----------------------------------*/
+/* ------->>> PROJECTS <<<------------*/
+/* -----------------------------------*/
 
+section.projects p {
+  color: rgba(0,0,0,.5);
+  letter-spacing: 3px;
+  font-size: 80%;
+}
 
+section.projects h2 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+}
+
+.projects img {
+  height: 18vw;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .projects img {
+    height: 35vw;
+  }
+}
+
+@media (max-width: 767px){
+	.projects img {
+    height: 70vw;
+  }
+}
+
+.project-content {
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.6);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.project-content:hover {
+  opacity: 100%;
+
+}
+
+/* -----------------------------------*/
+/* ------->>> SERVICES <<<------------*/
+/* -----------------------------------*/
+
+section.services {
+  background: #E5ECEB;
+}
+
+section.services h2 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+}
+
+section.services h3 {
+  font-size: 90%; 
+  letter-spacing: 3px;
+  color: rgba(0,0,0,.5);
+  margin-bottom: 12px;
+}
+
+.services ul {
+  list-style-type: none;
+}
+
+.services li {
+  margin-bottom: 15px;
+}
 
 /* -----------------------------------*/
 /* ------->>> APPROACH <<<------------*/
@@ -257,20 +344,48 @@ section.companies img.company-icon {
 /* -----------------------------------*/
 
 section.exist {
-    background-color:#cfe2de;  
-    padding: 100px 0px 100px 0px;
+    /* background-color:#cfe2de;   */
+    /* padding: 100px 0px 100px 0px; */
 }
 
 section.exist h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 20px 0px; color:#6f7678;}
+padding:0px 0px 20px 0px; }
 
-section.exist p { padding: 10px 100px 10px 100px; color:#6f7678; }
+section.exist p { padding: 10px 100px 10px 100px; }
 
 @media (max-width: 667px){
 	section.exist p { padding: 10px 50px 10px 50px; }
 }
 
+/* -----------------------------------*/
+/* ------------>>> TEAM <<<----------*/
+/* -----------------------------------*/
 
+section.team h2 {font-size: 90%; letter-spacing: 3px;}
+
+  section.team h3 {font-size: 92%; letter-spacing: 3px;}
+
+    section.team h4 {font-size: 90%; letter-spacing: 3px;}
+
+section.team p { font-size: 85%;}
+
+section.team img { width: 150px; height: 150px; border-radius: 50%;}
+
+/* -----------------------------------*/
+/* ------>>> OPPORTUNITIES <<<-----------*/
+/* -----------------------------------*/
+section.opportunities h1, 
+section.opportunities h2 {
+  font-size: 90%; letter-spacing: 3px;
+}
+
+section.opportunities a {
+  color: #a0a0a0;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 90%; 
+  letter-spacing: 3px;
+}
 
 /* -----------------------------------*/
 /* ------>>> CONTACT US <<<-----------*/
