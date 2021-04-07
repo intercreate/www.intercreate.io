@@ -394,14 +394,11 @@ padding:0px 0px 20px 0px; color: #ffffff;}
 
 section.contact p { color: #ffffff; }
 
-section.contact .contact-icons { padding: 20px 0px 0px 0px; }
-
 #icon-email {
   width: 35px;
   height: 35px;
   display: inline-block;
   background: url(../img/email_ICON.svg) no-repeat 0 0;
-  margin:0px 25px 15px 0px;
 }
 
 #icon-phone {
@@ -409,7 +406,6 @@ section.contact .contact-icons { padding: 20px 0px 0px 0px; }
   height: 35px;
   display: inline-block;
   background: url(../img/phone_ICON.svg) no-repeat 0 0;
-    margin:0px 25px 15px 0px;
 }
 
 #icon-angellist {
@@ -417,7 +413,6 @@ section.contact .contact-icons { padding: 20px 0px 0px 0px; }
   height: 35px;
   display: inline-block;
   background: url(../img/angellist_ICON.svg) no-repeat 0 0;
-    margin:0px 25px 15px 0px;
 }
 
 #icon-linkedin {
@@ -425,7 +420,6 @@ section.contact .contact-icons { padding: 20px 0px 0px 0px; }
   height: 35px;
   display: inline-block;
   background: url(../img/linkedin_ICON.svg) no-repeat 0 0;
-    margin:0px 25px 15px 0px;
 }
 
 
