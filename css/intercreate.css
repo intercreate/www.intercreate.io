@@ -399,7 +399,7 @@ section.contact {
 section.contact h2 {font-size: 90%; letter-spacing: 3px;
 padding:0px 0px 20px 0px; color: #ffffff;}
 
-section.contact p { padding: 0px 100px 10px 100px; color: #ffffff; }
+section.contact p { color: #ffffff; }
 
 section.contact .contact-icons { padding: 20px 0px 0px 0px; }
 
@@ -443,6 +443,7 @@ section.contact .contact-icons { padding: 20px 0px 0px 0px; }
 
 
 footer.footer {
+  padding: 40px 0px;
   background-color: #414143;
 }
 
