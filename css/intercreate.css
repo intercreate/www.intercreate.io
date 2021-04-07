@@ -348,14 +348,7 @@ section.exist {
     /* padding: 100px 0px 100px 0px; */
 }
 
-section.exist h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 20px 0px; }
-
-section.exist p { padding: 10px 100px 10px 100px; }
-
-@media (max-width: 667px){
-	section.exist p { padding: 10px 50px 10px 50px; }
-}
+section.exist h2 {font-size: 90%; letter-spacing: 3px;}
 
 /* -----------------------------------*/
 /* ------------>>> TEAM <<<----------*/
