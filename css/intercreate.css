@@ -172,6 +172,7 @@ header.masthead h1 {
   font-size: 1.5rem;
     line-height: 1.4;
 }
+
 #projectsBanner {
   background: url("../img/projects_banner.jpg") repeat center center;
 }
@@ -369,7 +370,7 @@ section.team img { width: 150px; height: 150px; border-radius: 50%;}
 /* -----------------------------------*/
 section.opportunities h1, 
 section.opportunities h2 {
-  font-size: 90%; letter-spacing: 3px;
+  font-size: 1rem; letter-spacing: 3px;
 }
 
 section.opportunities a {
