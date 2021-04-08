@@ -209,7 +209,7 @@ header.masthead h1 {
 section.projects p {
   color: rgba(0,0,0,.5);
   letter-spacing: 3px;
-  font-size: 80%;
+  font-size: 1rem; 
 }
 
 section.projects h2 {
@@ -258,7 +258,7 @@ section.services {
 }
 
 section.services h2 {
-  font-size: 90%; 
+  font-size: 1rem; 
   letter-spacing: 3px;
   color: rgba(0,0,0,.5);
 }
@@ -292,10 +292,18 @@ section.approach p {
     color: rgba(0,0,0,.5);
 }
 
-section.approach h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 20px 0px; color: rgba(0,0,0,.5);}
-section.approach h3 {font-size: 90%; letter-spacing: 3px; color: rgba(0,0,0,.5); } 
+section.approach h2 {  
+  font-size: 1rem; 
+  letter-spacing: 3px;
+  padding:0px 0px 20px 0px; 
+  color: rgba(0,0,0,.5);
+}
 
+section.approach h3 {  
+  font-size: 1rem; 
+  letter-spacing: 3px; 
+  color: rgba(0,0,0,.5);
+} 
 
 #icon-airplane {
   width: 80px;
@@ -331,8 +339,11 @@ section.companies {
     padding: 100px 0px 100px 0px;
 }
 
-section.companies h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 60px 0px;}
+section.companies h2 {
+  font-size: 1rem; 
+  letter-spacing: 3px;
+  padding:0px 0px 60px 0px;
+}
 
 section.companies img.company-icon {
    padding: 0px 0px 40px 0px; 
@@ -349,19 +360,37 @@ section.exist {
     /* padding: 100px 0px 100px 0px; */
 }
 
-section.exist h2 {font-size: 90%; letter-spacing: 3px;}
+section.exist h2 {
+  font-size: 1rem; 
+  letter-spacing: 3px;
+}
+
+section.exist p {
+  font-size: 1rem; 
+}
 
 /* -----------------------------------*/
 /* ------------>>> TEAM <<<----------*/
 /* -----------------------------------*/
 
-section.team h2 {font-size: 90%; letter-spacing: 3px;}
+section.team h2 {
+  font-size: 1rem; 
+  letter-spacing: 3px;
+}
 
-  section.team h3 {font-size: 92%; letter-spacing: 3px;}
+section.team h3 {  
+  font-size: 1rem; 
+  letter-spacing: 3px;
+}
 
-    section.team h4 {font-size: 90%; letter-spacing: 3px;}
+section.team h4 {
+  font-size: 1rem; 
+  letter-spacing: 3px;
+}
 
-section.team p { font-size: 85%;}
+section.team p {   
+  font-size: 1rem; 
+}
 
 section.team img { width: 150px; height: 150px; border-radius: 50%;}
 
@@ -370,14 +399,15 @@ section.team img { width: 150px; height: 150px; border-radius: 50%;}
 /* -----------------------------------*/
 section.opportunities h1, 
 section.opportunities h2 {
-  font-size: 1rem; letter-spacing: 3px;
+  font-size: 1rem; 
+  letter-spacing: 3px;
 }
 
 section.opportunities a {
   color: #a0a0a0;
   text-decoration: underline;
   line-height: 30px;
-  font-size: 90%; 
+  font-size: 1rem; 
   letter-spacing: 3px;
 }
 
@@ -390,10 +420,17 @@ section.contact {
     padding: 100px 0px 100px 0px;
 }
 
-section.contact h2 {font-size: 90%; letter-spacing: 3px;
-padding:0px 0px 20px 0px; color: #ffffff;}
+section.contact h2 {  
+  font-size: 1rem; 
+  letter-spacing: 3px;
+  padding:0px 0px 20px 0px; 
+  color: #ffffff;
+}
 
-section.contact p { color: #ffffff; }
+section.contact p {   
+  font-size: 1rem; 
+  color: #ffffff; 
+}
 
 #icon-email {
   width: 35px;
