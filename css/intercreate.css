@@ -408,7 +408,7 @@ section.opportunities a {
   text-decoration: underline;
   line-height: 30px;
   font-size: 1rem; 
-  /* letter-spacing: 3px; */
+  letter-spacing: 1px;
 }
 
 /* -----------------------------------*/
